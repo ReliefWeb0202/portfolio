@@ -238,7 +238,6 @@ section {
    5. サービス内容 (#service)
    ========================================== */
 #service {
-	border-top: var(--border);
 	border-bottom: var(--border);
 	padding: 60px 20px;
 	overflow: hidden;
