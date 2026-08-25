@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts の読み込み -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Space+Mono&family=Syne:wght@800&display=swap" rel="stylesheet">
+  <title>ReliefWeb | コーディング代行・ホームページ制作</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. ヘッダー -->
+  <header class="site-header site-container">
+    <div class="logo">Portfolio</div>
+    <a href="#contact" class="btn header-btn">ご相談はこちら</a>
+  </header>
+
+  <main>
+    <!-- 2. ヒーローエリア（メインビジュアル） -->
+    <section class="hero site-container">
+      <div class="hero-inner">
+        <div class="hero-meta">
+          <span>PORTFOLIO 2026</span>
+          <span>FRONTEND ENGINEER & APP DEVELOPER</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-title__main">RELIEFWEB</span>
+          <span class="hero-title__sub">PORTFOLIO</span>
+        </h1>
+        <div class="hero-copy">
+          <p>職業訓練にてWeb制作・プログラミング・生成AIの基礎を習得。現場の課題解決に貢献するITスキルのアップデートを続けています。</p>
+        </div>
+        <div class="hero-decor" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- 3. サービス内容 -->
+    <section id="service">
+      <div class="section-meta">SERVICE</div>
+      <h2 class="section-title">SERVICES</h2>
+      
+      <div class="service__container">
+        <article>
+          <h3>わかりやすいコーディング</h3>
+          <p>デザインの意図を汲み取り、崩れにくく整ったコードで再現いたします。</p>
+        </article>
+
+        <article>
+          <h3>スマホ・タブレット対応</h3>
+          <p>画面サイズに合わせてきれいに表示されるレスポンシブWebデザインに対応します。</p>
+        </article>
+
+        <article>
+          <h3>表示崩れの修正・テキスト変更</h3>
+          <p>「ここだけ直したい」「文字や画像を差し替えたい」といった細かなご要望にも対応します。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. 制作の流れ -->
+    <section id="flow">
+      <div class="section-meta">WORK FLOW</div>
+      <h2 class="section-title">FLOW</h2>
+      <ol>
+        <li>
+          <span>Step 01</span>
+          <h3>ヒアリング・ご相談</h3>
+          <p>ご要望や修正箇所を丁寧にお伺いします。</p>
+        </li>
+        <li>
+          <span>Step 02</span>
+          <h3>制作・修正作業</h3>
+          <p>コーディング作業および表示崩れの調整を行います。</p>
+        </li>
+        <li>
+          <span>Step 03</span>
+          <h3>表示チェック・ご確認</h3>
+          <p>実機やブラウザでの確認を行い、修正点をご確認いただきます。</p>
+        </li>
+        <li>
+          <span>Step 04</span>
+          <h3>納品</h3>
+          <p>最終確認後、ファイルを納品・反映いたします。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 制作実績 (Works Section) -->
+    <section id="works">
+      <div class="section-meta">PORTFOLIO</div>
+      <h2 class="section-title">WORKS</h2>
+      <div class="works__container">
+
+        <!-- 実績 1: 整体院サイト -->
+        <article class="works__card">
+          <div class="works__body">
+            <h3>ひだまり整体院（架空サロンサイト）</h3>
+            <div class="works__image">
+              <img src="images/01.png" alt="ひだまり整体院 サンプルサイト">
+            </div>
+            <p class="works__desc">店舗向けのレスポンシブWebサイトです。トップページ、メニュー・料金ページ、アクセスページを制作しました。</p>
+            <p class="works__meta"><strong>制作時間:</strong> 約6時間</p>
+            <p class="works__meta"><strong>担当範囲:</strong> HTML / CSS / JavaScriptコーディング（レスポンシブ対応）</p>
+            <a href="https://reliefweb0202.github.io/hidamari-seitai/" target="_blank" rel="noopener" class="btn">サイトを見る（別タブで開く）</a>
+          </div>
+        </article>
+
+        <!-- 実績 2: PWAアプリ -->
+        <article class="works__card">
+          <div class="works__body">
+            <h3>PWA Webアプリ</h3>
+            <div class="works__image">
+              <img src="images/02.png" alt="PWA Webアプリ">
+            </div>
+            <p class="works__desc">達成したい目標を入力し、APIキーを登録すると、達成までの具体的なタスクをAIが自動生成してくれるWebアプリです。スマホのホーム画面に追加して利用できます。</p>
+            <p class="works__meta"><strong>制作時間:</strong> 約15時間</p>
+            <p class="works__meta"><strong>使用技術:</strong> HTML / CSS / JavaScript / API連携 / PWA</p>
+            <a href="https://reliefweb0202.github.io/yarukoto-navi/" target="_blank" rel="noopener" class="btn">アプリを見る（別タブで開く）</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- プロフィール & スキルセクション (ABOUT) -->
+    <section id="about" class="about-section">
+      <div class="about-meta">ABOUT ME</div>
+      <h2 class="about-title">ABOUT</h2>
+
+      <div class="about-card">
+        <div class="about-card__left">
+          <h3 class="about-name">ReliefWeb</h3>
+          <p class="about-sub">DX & SYSTEMS LEARNER / WEB DEVELOPER</p>
+          <p class="about-catch">技術と生成AIを活用し、運用・保守や業務改善を見据えた実装を目指します。</p>
+        </div>
+
+        <div class="about-card__right">
+          <div class="about-block">
+            <h3 class="about-heading">PROFILE</h3>
+            <p class="about-text">
+              職業訓練にてWeb制作、プログラミング（PHP/JavaScript/MySQL）、生成AI活用、デザインツール等の幅広い基礎を履修。現在はDX推進業務に携わりながら、基本情報技術者の取得やクラウド・運用保守（AWS等）の学習を進めています。将来的なシステムの安定運用やコーディング実務を見据え、自走力を高めています。
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3 class="about-heading">SKILLS / TOOLS</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>WordPress</li>
+              <li>Illustrator</li>
+              <li>Photoshop</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. お問い合わせ -->
+    <section id="contact">
+      <div class="section-meta">GET IN TOUCH</div>
+      <h2 class="section-title">CONTACT</h2>
+      <a href="https://forms.gle/KdnSxsu2aydY5RtW8" target="_blank" rel="noopener" class="btn">お問い合わせフォームを開く</a>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2026 Relief Web. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
