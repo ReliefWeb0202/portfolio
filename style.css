@@ -148,7 +148,6 @@ section {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	border-bottom: var(--border);
 	background-color: var(--color-bg);
 }
 
@@ -273,7 +272,7 @@ section {
 	color: var(--color-text);
 	margin-bottom: 12px;
 	padding-bottom: 8px;
-	border-bottom: 2px dashed var(--color-line);
+	
 }
 
 #service article p {
